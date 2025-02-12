@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:package",
+ "creation": "2025-02-06 16:34:56.257847",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "package",
+  "quantity",
+  "operation",
+  "column_break_ewvw",
+  "volumecbm",
+  "gross_weightkg",
+  "section_break_znx7",
+  "save",
+  "column_break_v6wl",
+  "discard"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "package",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Package",
+   "options": "Freight Packages Parent",
+   "unique": 1
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Select",
+   "label": "Operation",
+   "options": "Dry\nreefer"
+  },
+  {
+   "fieldname": "column_break_ewvw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "volumecbm",
+   "fieldtype": "Int",
+   "label": "Volume(CBM)"
+  },
+  {
+   "fieldname": "gross_weightkg",
+   "fieldtype": "Int",
+   "label": "Gross Weight(KG)"
+  },
+  {
+   "fieldname": "section_break_znx7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "save",
+   "fieldtype": "Button",
+   "label": "Save"
+  },
+  {
+   "fieldname": "column_break_v6wl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "discard",
+   "fieldtype": "Button",
+   "label": "Discard"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-12 10:07:04.544984",
+ "modified_by": "Administrator",
+ "module": "freight management",
+ "name": "Order",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

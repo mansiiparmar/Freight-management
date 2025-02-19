@@ -33,7 +33,7 @@ class DirectShipment(Document):
             tracking_number = self.generate_tracking_number()
             
             # Set the name with "I" prefix and the tracking number
-            self.name = "I" + 	
+            self.name = "I" + tracking_number
         else:
             tracking_number = self.generate_tracking_number()
             self.name = "E" + tracking_number

@@ -22,12 +22,17 @@
   {
    "fieldname": "description",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Description"
   },
   {
    "fieldname": "package",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Package",
    "options": "Freight Packages Parent",
    "unique": 1
@@ -35,13 +40,20 @@
   {
    "fieldname": "quantity",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Quantity"
   },
   {
    "fieldname": "operation",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Operation",
-   "options": "Dry\nreefer"
+   "options": "\nDry\nreefer",
+   "permlevel": 1
   },
   {
    "fieldname": "column_break_ewvw",
@@ -79,7 +91,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-02-12 10:07:04.544984",
+ "modified": "2025-02-17 19:17:46.717326",
  "modified_by": "Administrator",
  "module": "freight management",
  "name": "Order",

@@ -27,15 +27,13 @@ class DirectShipment(Document):
         return tracking_number
 
     # Method to set the name with tracking number
-    # def autoname(self):
-    #     if self.direction == "Import":
-    #         # Generate the tracking number
-    #         tracking_number = self.generate_tracking_number()
+    def autoname(self):
+        if self.direction == "Import":
+            # Generate the tracking number
+            tracking_number = self.generate_tracking_number()
             
-    #         # Set the name with "I" prefix and the tracking number
-    #         self.name = "I" + 	
-    #     else:
-    #         tracking_number = self.generate_tracking_number()
-    #         self.name = "E" + tracking_number
-            
-
+            # Set the name with "I" prefix and the tracking number
+            self.name = "I" + tracking_number
+        else:
+            tracking_number = self.generate_tracking_number()
+            self.name = "E" + tracking_number

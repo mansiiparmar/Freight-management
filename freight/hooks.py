@@ -243,5 +243,7 @@ doc_events = {
 
 fixtures = [
 	{"dt":"Web Page"},
-	{"dt":"Web Form"}
+	{"dt":"Web Form"},
+	{"dt":"Website Settings"}
+ 
 ]

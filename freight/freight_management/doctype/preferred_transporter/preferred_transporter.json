@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:transporter_name",
+ "creation": "2025-02-24 22:43:52.821278",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "transporter_name",
+  "transporter_number",
+  "transporter_mail",
+  "oprating_location"
+ ],
+ "fields": [
+  {
+   "fieldname": "transporter_name",
+   "fieldtype": "Data",
+   "label": "Transporter Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "transporter_number",
+   "fieldtype": "Data",
+   "label": "Transporter Number"
+  },
+  {
+   "fieldname": "transporter_mail",
+   "fieldtype": "Data",
+   "label": "Transporter Mail"
+  },
+  {
+   "fieldname": "oprating_location",
+   "fieldtype": "Table",
+   "label": "Oprating Location",
+   "options": "Freight Location"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-24 22:43:52.821278",
+ "modified_by": "Administrator",
+ "module": "freight management",
+ "name": "Preferred Transporter",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

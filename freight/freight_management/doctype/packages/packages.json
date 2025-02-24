@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:operation",
+ "creation": "2025-02-06 17:19:36.824892",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "packages",
+  "quantity",
+  "operation",
+  "volumecbm",
+  "gross_weightkg"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "packages",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Package",
+   "unique": 1
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Data",
+   "label": "Operation",
+   "unique": 1
+  },
+  {
+   "fieldname": "volumecbm",
+   "fieldtype": "Int",
+   "label": "Volume(CBM)"
+  },
+  {
+   "fieldname": "gross_weightkg",
+   "fieldtype": "Int",
+   "label": "Gross Weight(KG)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-12 10:07:28.403486",
+ "modified_by": "Administrator",
+ "module": "freight management",
+ "name": "Packages",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

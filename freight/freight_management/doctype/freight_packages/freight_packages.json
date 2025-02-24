@@ -1,0 +1,149 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:description",
+ "creation": "2025-02-07 10:44:02.955774",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "packages",
+  "quantity",
+  "operation",
+  "volume_cbm",
+  "gross_weight_kg",
+  "dangerous_goods",
+  "class_number",
+  "un_number",
+  "packaging_group",
+  "imdg_code",
+  "flash_point",
+  "material_description",
+  "column_break_hke0",
+  "harmonize",
+  "temrerature",
+  "vgm",
+  "carrier_seal",
+  "shipper_seal",
+  "reference"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description",
+   "unique": 1
+  },
+  {
+   "fieldname": "packages",
+   "fieldtype": "Link",
+   "label": "Package",
+   "options": "Packages"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Operation",
+   "options": "Dry\nreefer"
+  },
+  {
+   "fieldname": "volume_cbm",
+   "fieldtype": "Int",
+   "label": "Volume (CBM)"
+  },
+  {
+   "fieldname": "gross_weight_kg",
+   "fieldtype": "Int",
+   "label": "Gross Weight (KG)"
+  },
+  {
+   "default": "0",
+   "fieldname": "dangerous_goods",
+   "fieldtype": "Check",
+   "label": "Dangerous Goods"
+  },
+  {
+   "fieldname": "class_number",
+   "fieldtype": "Data",
+   "label": "Class Number"
+  },
+  {
+   "fieldname": "un_number",
+   "fieldtype": "Data",
+   "label": "UN Number"
+  },
+  {
+   "fieldname": "packaging_group",
+   "fieldtype": "Data",
+   "label": "Packaging Group"
+  },
+  {
+   "fieldname": "imdg_code",
+   "fieldtype": "Int",
+   "label": "IMDG Code"
+  },
+  {
+   "fieldname": "flash_point",
+   "fieldtype": "Data",
+   "label": "Flash Point"
+  },
+  {
+   "fieldname": "material_description",
+   "fieldtype": "Text",
+   "label": "Material Description"
+  },
+  {
+   "fieldname": "column_break_hke0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "harmonize",
+   "fieldtype": "Data",
+   "label": "Harmonize"
+  },
+  {
+   "fieldname": "temrerature",
+   "fieldtype": "Data",
+   "label": "Temrerature"
+  },
+  {
+   "fieldname": "vgm",
+   "fieldtype": "Data",
+   "label": "VGM"
+  },
+  {
+   "fieldname": "carrier_seal",
+   "fieldtype": "Data",
+   "label": "Carrier Seal"
+  },
+  {
+   "fieldname": "shipper_seal",
+   "fieldtype": "Data",
+   "label": "Shipper Seal"
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "Reference"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-12 10:09:05.108896",
+ "modified_by": "Administrator",
+ "module": "freight management",
+ "name": "Freight Packages",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

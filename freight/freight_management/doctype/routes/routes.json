@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:source_location",
+ "creation": "2025-02-07 11:31:42.522191",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "route_operation",
+  "source_location",
+  "etd",
+  "atd",
+  "column_break_bpnx",
+  "transport",
+  "destination_location",
+  "date",
+  "eta",
+  "ata"
+ ],
+ "fields": [
+  {
+   "fieldname": "route_operation",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Route Operation",
+   "options": "Pickup\nOn Carriage\nPre Carriage\nDelivery\nTo Warehouse\nFrom Warehouse"
+  },
+  {
+   "fieldname": "source_location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Source Location",
+   "unique": 1
+  },
+  {
+   "fieldname": "etd",
+   "fieldtype": "Data",
+   "label": "ETD"
+  },
+  {
+   "fieldname": "atd",
+   "fieldtype": "Data",
+   "label": "ATD"
+  },
+  {
+   "fieldname": "column_break_bpnx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "transport",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Transport",
+   "options": "Air\nOcean\nLand"
+  },
+  {
+   "fieldname": "destination_location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Destination Location"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "eta",
+   "fieldtype": "Data",
+   "label": "ETA"
+  },
+  {
+   "fieldname": "ata",
+   "fieldtype": "Data",
+   "label": "ATA"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-12 10:08:37.454464",
+ "modified_by": "Administrator",
+ "module": "freight management",
+ "name": "Routes",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

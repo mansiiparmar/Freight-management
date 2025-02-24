@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:operation",
+ "creation": "2025-02-07 11:11:38.258377",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "packages",
+  "quantity",
+  "operation",
+  "volume_cbm",
+  "gross_weight_kg",
+  "section_break_4pda",
+  "save",
+  "column_break_ctol",
+  "discard"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "packages",
+   "fieldtype": "Link",
+   "label": "Packages",
+   "options": "Freight Packages"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Data",
+   "label": "Operation",
+   "unique": 1
+  },
+  {
+   "fieldname": "volume_cbm",
+   "fieldtype": "Data",
+   "label": "Volume (CBM)"
+  },
+  {
+   "fieldname": "gross_weight_kg",
+   "fieldtype": "Int",
+   "label": "Gross Weight (KG)"
+  },
+  {
+   "fieldname": "section_break_4pda",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "save",
+   "fieldtype": "Button",
+   "label": "Save"
+  },
+  {
+   "fieldname": "column_break_ctol",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "discard",
+   "fieldtype": "Button",
+   "label": "Discard"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-12 10:07:43.139183",
+ "modified_by": "Administrator",
+ "module": "freight management",
+ "name": "Items",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

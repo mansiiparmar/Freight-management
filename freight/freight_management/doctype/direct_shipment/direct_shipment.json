@@ -1,0 +1,287 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-06 15:58:17.599560",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "type_of_shipment",
+  "direction",
+  "column_break_d5li",
+  "transport_medium",
+  "section_break_rpit",
+  "shipper_column",
+  "shipper",
+  "gateway",
+  "mawb_no",
+  "agent",
+  "user",
+  "freight_pc",
+  "other_pc",
+  "notes",
+  "consignee_column",
+  "consignee",
+  "destination",
+  "airline",
+  "flight_no",
+  "date",
+  "dangerous_goods",
+  "move_type",
+  "tracking_number",
+  "incoterm",
+  "order",
+  "orders",
+  "packages_tab",
+  "packages",
+  "routes_tab",
+  "routes",
+  "services_tab",
+  "services",
+  "customs_tab",
+  "custom"
+ ],
+ "fields": [
+  {
+   "fieldname": "direction",
+   "fieldtype": "Select",
+   "label": "Direction",
+   "options": "Import\nExport"
+  },
+  {
+   "fieldname": "column_break_d5li",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_rpit",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "shipper_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shipper",
+   "fieldtype": "Link",
+   "label": "Shipper",
+   "options": "Shipper",
+   "unique": 1
+  },
+  {
+   "fieldname": "gateway",
+   "fieldtype": "Data",
+   "label": "Gateway"
+  },
+  {
+   "fieldname": "mawb_no",
+   "fieldtype": "Phone",
+   "label": "MAWB No"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "Agent"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Data",
+   "label": "User"
+  },
+  {
+   "fieldname": "freight_pc",
+   "fieldtype": "Data",
+   "label": "Freight PC"
+  },
+  {
+   "fieldname": "other_pc",
+   "fieldtype": "Data",
+   "label": "Other PC"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "consignee_column",
+   "fieldtype": "Column Break",
+   "label": "Consignee"
+  },
+  {
+   "fieldname": "consignee",
+   "fieldtype": "Data",
+   "label": "Consignee"
+  },
+  {
+   "fieldname": "destination",
+   "fieldtype": "Data",
+   "label": "Destination"
+  },
+  {
+   "fieldname": "airline",
+   "fieldtype": "Data",
+   "label": "Airline"
+  },
+  {
+   "fieldname": "flight_no",
+   "fieldtype": "Data",
+   "label": "Flight No"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "dangerous_goods",
+   "fieldtype": "Check",
+   "label": "Dangerous Goods"
+  },
+  {
+   "fieldname": "move_type",
+   "fieldtype": "Data",
+   "label": "Move Type"
+  },
+  {
+   "fieldname": "tracking_number",
+   "fieldtype": "Data",
+   "label": "Tracking Number"
+  },
+  {
+   "fieldname": "incoterm",
+   "fieldtype": "Data",
+   "label": "Incoterm"
+  },
+  {
+   "fieldname": "order",
+   "fieldtype": "Tab Break",
+   "label": "Order"
+  },
+  {
+   "fieldname": "orders",
+   "fieldtype": "Table",
+   "label": "Orders",
+   "options": "Order"
+  },
+  {
+   "fieldname": "packages_tab",
+   "fieldtype": "Tab Break",
+   "label": "Packages"
+  },
+  {
+   "fieldname": "packages",
+   "fieldtype": "Table",
+   "label": "Packages",
+   "options": "Freight Packages"
+  },
+  {
+   "fieldname": "routes_tab",
+   "fieldtype": "Tab Break",
+   "label": "Routes"
+  },
+  {
+   "fieldname": "routes",
+   "fieldtype": "Table",
+   "label": "Routes",
+   "options": "Routes"
+  },
+  {
+   "fieldname": "services_tab",
+   "fieldtype": "Tab Break",
+   "label": "Services"
+  },
+  {
+   "fieldname": "services",
+   "fieldtype": "Table",
+   "label": "Services",
+   "options": "Services"
+  },
+  {
+   "fieldname": "customs_tab",
+   "fieldtype": "Tab Break",
+   "label": "Customs"
+  },
+  {
+   "fieldname": "custom",
+   "fieldtype": "Table",
+   "label": "Custom",
+   "options": "Custom"
+  },
+  {
+   "fieldname": "type_of_shipment",
+   "fieldtype": "Link",
+   "label": "Type Of Shipment",
+   "options": "Types Of Shipment"
+  },
+  {
+   "fieldname": "transport_medium",
+   "fieldtype": "Link",
+   "label": "Transportation Medium",
+   "options": "Transportation Medium"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-19 00:30:38.192944",
+ "modified_by": "Administrator",
+ "module": "freight management",
+ "name": "Direct Shipment",
+ "naming_rule": "By script",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

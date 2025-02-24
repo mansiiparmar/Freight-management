@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:vendor",
+ "creation": "2025-02-07 11:47:55.224330",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "vendor",
+  "service",
+  "description",
+  "quantity",
+  "column_break_ratt",
+  "currency",
+  "sale",
+  "cost",
+  "section_break_tv3r",
+  "save_and_close",
+  "column_break_mhjp",
+  "save_and_new",
+  "column_break_ssq1",
+  "discard"
+ ],
+ "fields": [
+  {
+   "fieldname": "vendor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Vendor",
+   "unique": 1
+  },
+  {
+   "fieldname": "service",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Service",
+   "options": "Air Freight Services\nInland Freight Services"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "column_break_ratt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Currency",
+   "options": "INR\nAED"
+  },
+  {
+   "fieldname": "sale",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Sale"
+  },
+  {
+   "fieldname": "cost",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Cost"
+  },
+  {
+   "fieldname": "section_break_tv3r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "save_and_close",
+   "fieldtype": "Button",
+   "label": "Save & Close"
+  },
+  {
+   "fieldname": "column_break_mhjp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "save_and_new",
+   "fieldtype": "Button",
+   "label": "Save & New"
+  },
+  {
+   "fieldname": "column_break_ssq1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "discard",
+   "fieldtype": "Button",
+   "label": "Discard"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-12 10:08:02.797831",
+ "modified_by": "Administrator",
+ "module": "freight management",
+ "name": "Services",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

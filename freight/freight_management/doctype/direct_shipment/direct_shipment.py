@@ -1,7 +1,7 @@
 # Copyright (c) 2025, admin and contributors
 # For license information, please see license.txt
 
-import frappe
+# import frappe
 from frappe.model.document import Document
 
 # class DirectShipment(Document):
@@ -38,12 +38,4 @@ class DirectShipment(Document):
             tracking_number = self.generate_tracking_number()
             self.name = "E" + tracking_number
             
-# @frappe.whitelist()
-# def display(document):
-#     doc=frappe.get_doc("Direct Shipment",document)
-#     return "done"
-@frappe.whitelist()
-def show(document):
-    doc=frappe.get_doc("Direct Shipment",document)
-    return "done"
-        # doc=frappe.get_doc("Direct Shipment",document)
+

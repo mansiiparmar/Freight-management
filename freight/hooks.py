@@ -43,9 +43,7 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-doctype_js = {
-    "Sales Invoice": "freight_management/customization/sales_invoice/sales_invoice.js"
-}
+# doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -244,8 +242,7 @@ doctype_js = {
 # }
 
 fixtures = [
-	{"dt":"Web Page"},
+ 	{"dt":"Web Page"},
 	{"dt":"Web Form"},
 	{"dt":"Website Settings"}
- 
 ]

@@ -38,12 +38,4 @@ class DirectShipment(Document):
             tracking_number = self.generate_tracking_number()
             self.name = "E" + tracking_number
             
-# @frappe.whitelist()
-# def display(document):
-#     doc=frappe.get_doc("Direct Shipment",document)
-#     return "done"
-@frappe.whitelist()
-def show(document):
-    doc=frappe.get_doc("Direct Shipment",document)
-    return "done"
-        # doc=frappe.get_doc("Direct Shipment",document)
+

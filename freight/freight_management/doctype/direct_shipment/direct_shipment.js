@@ -7,3 +7,16 @@
 // 	},
 // });
 
+frappe.ui.form.on('Direct Shipment', {
+    refresh: function(frm) {
+        frm.fields_dict['transport_medium'].get_query = function(doc) {
+            if (doc.type_of_shipment == "Intra City") {
+                return {
+                    filters: {
+                        name: "Road"
+                    }
+                };
+            }
+        };
+    }
+});

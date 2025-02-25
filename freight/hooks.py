@@ -246,3 +246,5 @@ fixtures = [
 	{"dt":"Web Form"},
 	{"dt":"Website Settings"}
 ]
+
+after_migrate = "freight.migrate.after_migrate"

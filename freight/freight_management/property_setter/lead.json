@@ -3,7 +3,24 @@
   {
    "doctype": "Lead",
    "doctype_or_field": "DocField",
-   "field_name": "other_info_tab",
+   "field_name": "naming_series",
+   "module": "Freight Management",
+   "property": "options",
+   "property_type": "Text",
+   "value": "CRM-LEAD-.YYYY.-"
+  },
+  {
+   "doctype": "Lead",
+   "doctype_or_field": "DocType",
+   "module": "Freight Management",
+   "property": "field_order",
+   "property_type": "Data",
+   "value": "[\"naming_series\", \"salutation\", \"first_name\", \"middle_name\", \"last_name\", \"column_break_1\", \"lead_name\", \"job_title\", \"gender\", \"source\", \"col_break123\", \"lead_owner\", \"status\", \"customer\", \"type\", \"request_type\", \"contact_info_tab\", \"email_id\", \"website\", \"column_break_20\", \"mobile_no\", \"whatsapp_no\", \"column_break_16\", \"phone\", \"phone_ext\", \"organization_section\", \"company_name\", \"no_of_employees\", \"column_break_28\", \"annual_revenue\", \"industry\", \"market_segment\", \"column_break_31\", \"territory\", \"fax\", \"address_section\", \"address_html\", \"column_break_38\", \"city\", \"state\", \"country\", \"column_break2\", \"contact_html\", \"qualification_tab\", \"qualification_status\", \"column_break_64\", \"qualified_by\", \"qualified_on\", \"other_info_tab\", \"campaign_name\", \"company\", \"column_break_22\", \"language\", \"image\", \"title\", \"column_break_50\", \"disabled\", \"unsubscribed\", \"blog_subscriber\", \"custom_freight_specific\", \"custom_type_of_shipment\", \"custom_transportation_medium\", \"custom_origin_location\", \"custom_destination_location\", \"custom_freight_weight_expected\", \"custom_shipment_type\", \"custom_preferred_transporter\", \"activities_tab\", \"open_activities_html\", \"all_activities_section\", \"all_activities_html\", \"notes_tab\", \"notes_html\", \"notes\", \"dashboard_tab\"]"
+  },
+  {
+   "doctype": "Lead",
+   "doctype_or_field": "DocField",
+   "field_name": "territory",
    "module": "Freight Management",
    "property": "hidden",
    "property_type": "Check",
@@ -21,7 +38,7 @@
   {
    "doctype": "Lead",
    "doctype_or_field": "DocField",
-   "field_name": "territory",
+   "field_name": "other_info_tab",
    "module": "Freight Management",
    "property": "hidden",
    "property_type": "Check",
@@ -29,20 +46,11 @@
   },
   {
    "doctype": "Lead",
-   "doctype_or_field": "DocType",
-   "module": "Freight Management",
-   "property": "field_order",
-   "property_type": "Data",
-   "value": "[\"naming_series\", \"salutation\", \"first_name\", \"middle_name\", \"last_name\", \"column_break_1\", \"lead_name\", \"job_title\", \"gender\", \"source\", \"col_break123\", \"lead_owner\", \"status\", \"customer\", \"type\", \"request_type\", \"contact_info_tab\", \"email_id\", \"website\", \"column_break_20\", \"mobile_no\", \"whatsapp_no\", \"column_break_16\", \"phone\", \"phone_ext\", \"organization_section\", \"company_name\", \"no_of_employees\", \"column_break_28\", \"annual_revenue\", \"industry\", \"market_segment\", \"column_break_31\", \"territory\", \"fax\", \"address_section\", \"address_html\", \"column_break_38\", \"city\", \"state\", \"country\", \"column_break2\", \"contact_html\", \"qualification_tab\", \"qualification_status\", \"column_break_64\", \"qualified_by\", \"qualified_on\", \"other_info_tab\", \"campaign_name\", \"company\", \"column_break_22\", \"language\", \"image\", \"title\", \"column_break_50\", \"disabled\", \"unsubscribed\", \"blog_subscriber\", \"custom_freight_specific\", \"custom_type_of_shipment\", \"custom_transportation_medium\", \"custom_origin_location\", \"custom_destination_location\", \"custom_freight_weight_expected\", \"custom_shipment_type\", \"custom_preferred_transporter\", \"activities_tab\", \"open_activities_html\", \"all_activities_section\", \"all_activities_html\", \"notes_tab\", \"notes_html\", \"notes\", \"dashboard_tab\"]"
-  },
-  {
-   "doctype": "Lead",
    "doctype_or_field": "DocField",
-   "field_name": "naming_series",
+   "field_name": "custom_origin_location",
    "module": "Freight Management",
-   "property": "options",
-   "property_type": "Text",
-   "value": "CRM-LEAD-.YYYY.-"
+   "property": "print_width",
+   "property_type": "Data"
   }
  ]
 }

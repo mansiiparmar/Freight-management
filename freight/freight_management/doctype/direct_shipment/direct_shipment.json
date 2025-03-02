@@ -1,34 +1,39 @@
 {
  "actions": [],
- "allow_rename": 1,
  "creation": "2025-02-06 15:58:17.599560",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "type_of_shipment",
+  "section_break_kfcp",
+  "user",
   "direction",
   "column_break_d5li",
   "transport_medium",
+  "type_of_shipment",
   "section_break_rpit",
   "shipper_column",
   "shipper",
   "gateway",
   "mawb_no",
   "agent",
-  "user",
   "freight_pc",
   "other_pc",
+  "freight_weight_expected",
   "notes",
   "consignee_column",
   "consignee",
-  "destination",
   "airline",
   "flight_no",
   "date",
   "dangerous_goods",
-  "move_type",
+  "shipment_type",
   "tracking_number",
+  "preferred_transporter",
   "incoterm",
+  "section_break_c5vw",
+  "origin_location",
+  "section_break_9tgm",
+  "destination_location",
   "order",
   "orders",
   "packages_tab",
@@ -41,12 +46,6 @@
   "custom"
  ],
  "fields": [
-  {
-   "fieldname": "direction",
-   "fieldtype": "Select",
-   "label": "Direction",
-   "options": "Import\nExport"
-  },
   {
    "fieldname": "column_break_d5li",
    "fieldtype": "Column Break"
@@ -74,17 +73,12 @@
   {
    "fieldname": "mawb_no",
    "fieldtype": "Phone",
-   "label": "MAWB No"
+   "label": "MAWB No(Master Air Waybill Number)"
   },
   {
    "fieldname": "agent",
    "fieldtype": "Data",
    "label": "Agent"
-  },
-  {
-   "fieldname": "user",
-   "fieldtype": "Data",
-   "label": "User"
   },
   {
    "fieldname": "freight_pc",
@@ -112,11 +106,6 @@
    "label": "Consignee"
   },
   {
-   "fieldname": "destination",
-   "fieldtype": "Data",
-   "label": "Destination"
-  },
-  {
    "fieldname": "airline",
    "fieldtype": "Data",
    "label": "Airline"
@@ -138,19 +127,15 @@
    "label": "Dangerous Goods"
   },
   {
-   "fieldname": "move_type",
-   "fieldtype": "Data",
-   "label": "Move Type"
-  },
-  {
    "fieldname": "tracking_number",
    "fieldtype": "Data",
    "label": "Tracking Number"
   },
   {
    "fieldname": "incoterm",
-   "fieldtype": "Data",
-   "label": "Incoterm"
+   "fieldtype": "Link",
+   "label": "Incoterm",
+   "options": "Incoterms"
   },
   {
    "fieldname": "order",
@@ -218,11 +203,62 @@
    "fieldtype": "Link",
    "label": "Transportation Medium",
    "options": "Transportation Medium"
+  },
+  {
+   "fieldname": "shipment_type",
+   "fieldtype": "Data",
+   "label": "Shipment Type"
+  },
+  {
+   "fieldname": "origin_location",
+   "fieldtype": "Table",
+   "label": "Origin Location",
+   "options": "Freight Location"
+  },
+  {
+   "fieldname": "destination_location",
+   "fieldtype": "Table",
+   "label": "Destination Location",
+   "options": "Freight Location"
+  },
+  {
+   "fieldname": "section_break_9tgm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_c5vw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "preferred_transporter",
+   "fieldtype": "Link",
+   "label": "Preferred Transporter",
+   "options": "Preferred Transporter"
+  },
+  {
+   "fieldname": "freight_weight_expected",
+   "fieldtype": "Float",
+   "label": "Freight Weight (Expected)"
+  },
+  {
+   "fieldname": "section_break_kfcp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Data",
+   "label": "Customer"
+  },
+  {
+   "fieldname": "direction",
+   "fieldtype": "Select",
+   "label": "Direction",
+   "options": "Import\nExport"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-19 00:30:38.192944",
+ "modified": "2025-02-28 14:32:26.837281",
  "modified_by": "Administrator",
  "module": "freight management",
  "name": "Direct Shipment",

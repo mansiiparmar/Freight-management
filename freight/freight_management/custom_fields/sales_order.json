@@ -1,0 +1,81 @@
+{
+ "Sales Order": [
+  {
+   "allow_on_submit": 1,
+   "dt": "Sales Order",
+   "fieldname": "custom_preferred_transporter",
+   "fieldtype": "Link",
+   "insert_after": "custom_shipment_type",
+   "label": "Preferred Transporter",
+   "module": "Freight Management",
+   "options": "Preferred Transporter"
+  },
+  {
+   "allow_on_submit": 1,
+   "dt": "Sales Order",
+   "fieldname": "custom_shipment_type",
+   "fieldtype": "Data",
+   "insert_after": "custom_freight_weight_expected",
+   "label": "Shipment Type",
+   "module": "Freight Management"
+  },
+  {
+   "allow_on_submit": 1,
+   "dt": "Sales Order",
+   "fieldname": "custom_freight_weight_expected",
+   "fieldtype": "Float",
+   "insert_after": "custom_destination_location",
+   "label": "Freight Weight (Expected)",
+   "module": "Freight Management"
+  },
+  {
+   "allow_on_submit": 1,
+   "dt": "Sales Order",
+   "fieldname": "custom_destination_location",
+   "fieldtype": "Table",
+   "insert_after": "custom_origin_location",
+   "label": "Destination Location",
+   "module": "Freight Management",
+   "options": "Freight Location"
+  },
+  {
+   "allow_on_submit": 1,
+   "dt": "Sales Order",
+   "fieldname": "custom_origin_location",
+   "fieldtype": "Table",
+   "insert_after": "custom_transportation_medium",
+   "label": "Origin Location",
+   "module": "Freight Management",
+   "options": "Freight Location"
+  },
+  {
+   "allow_on_submit": 1,
+   "dt": "Sales Order",
+   "fieldname": "custom_transportation_medium",
+   "fieldtype": "Link",
+   "insert_after": "custom_type_of_shipment",
+   "label": "Transportation Medium",
+   "module": "Freight Management",
+   "options": "Transportation Medium"
+  },
+  {
+   "allow_on_submit": 1,
+   "dt": "Sales Order",
+   "fieldname": "custom_type_of_shipment",
+   "fieldtype": "Link",
+   "insert_after": "custom_freight_specific",
+   "label": "Type Of Shipment",
+   "module": "Freight Management",
+   "options": "Types Of Shipment"
+  },
+  {
+   "allow_on_submit": 1,
+   "dt": "Sales Order",
+   "fieldname": "custom_freight_specific",
+   "fieldtype": "Tab Break",
+   "insert_after": "connections_tab",
+   "label": "Freight Specific",
+   "module": "Freight Management"
+  }
+ ]
+}

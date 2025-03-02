@@ -6,6 +6,13 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "section_break_asyl",
+  "air",
+  "column_break_hhma",
+  "road",
+  "column_break_wq0t",
+  "sea",
+  "section_break_ofv8",
   "transporter_name",
   "transporter_number",
   "transporter_mail",
@@ -33,11 +40,45 @@
    "fieldtype": "Table",
    "label": "Oprating Location",
    "options": "Freight Location"
+  },
+  {
+   "default": "0",
+   "fieldname": "air",
+   "fieldtype": "Check",
+   "label": "Air"
+  },
+  {
+   "default": "0",
+   "fieldname": "road",
+   "fieldtype": "Check",
+   "label": "Road"
+  },
+  {
+   "default": "0",
+   "fieldname": "sea",
+   "fieldtype": "Check",
+   "label": "Sea"
+  },
+  {
+   "fieldname": "section_break_asyl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hhma",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wq0t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ofv8",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-24 22:43:52.821278",
+ "modified": "2025-02-25 15:18:06.442082",
  "modified_by": "Administrator",
  "module": "freight management",
  "name": "Preferred Transporter",

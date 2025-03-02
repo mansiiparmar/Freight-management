@@ -913,7 +913,7 @@
   "meta_description": null,
   "meta_image": "",
   "meta_title": null,
-  "modified": "2025-02-13 11:20:54.668123",
+  "modified": "2025-02-25 14:18:35.081532",
   "module": "freight management",
   "name": "freight",
   "page_blocks": [
@@ -940,7 +940,7 @@
   "route": "freight",
   "show_sidebar": 0,
   "show_title": 0,
-  "slideshow": "Freight Images",
+  "slideshow": "",
   "start_date": null,
   "text_align": "Center",
   "title": "Freight",

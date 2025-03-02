@@ -244,7 +244,8 @@ app_license = "mit"
 fixtures = [
  	{"dt":"Web Page"},
 	{"dt":"Web Form"},
-	{"dt":"Website Settings"}
+	{"dt":"Website Settings"},
+    {"dt":"Print Format"}
 ]
 
 after_migrate = "freight.migrate.after_migrate"

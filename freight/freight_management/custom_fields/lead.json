@@ -2,57 +2,10 @@
  "Lead": [
   {
    "dt": "Lead",
-   "fieldname": "custom_shipment_type",
-   "fieldtype": "Link",
-   "insert_after": "custom_freight_weight_expected",
-   "label": "Shipment Type",
-   "module": "Freight Management",
-   "options": "Shipment Type"
-  },
-  {
-   "dt": "Lead",
-   "fieldname": "custom_destination_location",
-   "fieldtype": "Table",
-   "insert_after": "custom_origin_location",
-   "is_system_generated": 1,
-   "label": "Destination Location",
-   "module": "Freight Management",
-   "options": "Freight Location"
-  },
-  {
-   "dt": "Lead",
-   "fieldname": "custom_origin_location",
-   "fieldtype": "Table",
-   "insert_after": "custom_transportation_medium",
-   "is_system_generated": 1,
-   "label": "Origin Location",
-   "module": "Freight Management",
-   "options": "Freight Location"
-  },
-  {
-   "dt": "Lead",
-   "fieldname": "custom_transportation_medium",
-   "fieldtype": "Link",
-   "insert_after": "custom_type_of_shipment",
-   "label": "Transportation Medium",
-   "module": "Freight Management",
-   "options": "Transportation Medium"
-  },
-  {
-   "dt": "Lead",
-   "fieldname": "custom_preferred_transporter",
-   "fieldtype": "Link",
-   "insert_after": "custom_shipment_type",
-   "label": "Preferred Transporter",
-   "module": "Freight Management",
-   "options": "Preferred Transporter"
-  },
-  {
-   "dt": "Lead",
-   "fieldname": "custom_freight_weight_expected",
-   "fieldtype": "Float",
-   "insert_after": "custom_destination_location",
-   "label": "Freight Weight (Expected)",
+   "fieldname": "custom_freight_specific",
+   "fieldtype": "Section Break",
+   "insert_after": "blog_subscriber",
+   "label": "Freight Specific",
    "module": "Freight Management"
   },
   {
@@ -66,11 +19,58 @@
   },
   {
    "dt": "Lead",
-   "fieldname": "custom_freight_specific",
-   "fieldtype": "Section Break",
-   "insert_after": "blog_subscriber",
-   "label": "Freight Specific",
+   "fieldname": "custom_freight_weight_expected",
+   "fieldtype": "Float",
+   "insert_after": "custom_destination_location",
+   "label": "Freight Weight (Expected)",
    "module": "Freight Management"
+  },
+  {
+   "dt": "Lead",
+   "fieldname": "custom_preferred_transporter",
+   "fieldtype": "Link",
+   "insert_after": "custom_shipment_type",
+   "label": "Preferred Transporter",
+   "module": "Freight Management",
+   "options": "Preferred Transporter"
+  },
+  {
+   "dt": "Lead",
+   "fieldname": "custom_transportation_medium",
+   "fieldtype": "Link",
+   "insert_after": "custom_type_of_shipment",
+   "label": "Transportation Medium",
+   "module": "Freight Management",
+   "options": "Transportation Medium"
+  },
+  {
+   "dt": "Lead",
+   "fieldname": "custom_origin_location",
+   "fieldtype": "Table",
+   "insert_after": "custom_transportation_medium",
+   "is_system_generated": 1,
+   "label": "Origin Location",
+   "module": "Freight Management",
+   "options": "Freight Location"
+  },
+  {
+   "dt": "Lead",
+   "fieldname": "custom_destination_location",
+   "fieldtype": "Table",
+   "insert_after": "custom_origin_location",
+   "is_system_generated": 1,
+   "label": "Destination Location",
+   "module": "Freight Management",
+   "options": "Freight Location"
+  },
+  {
+   "dt": "Lead",
+   "fieldname": "custom_shipment_type",
+   "fieldtype": "Link",
+   "insert_after": "custom_freight_weight_expected",
+   "label": "Shipment Type",
+   "module": "Freight Management",
+   "options": "Shipment Type"
   }
  ]
 }

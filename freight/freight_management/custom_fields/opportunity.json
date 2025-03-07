@@ -5,24 +5,17 @@
    "fieldname": "custom_preferred_transporter",
    "fieldtype": "Link",
    "insert_after": "custom_shipment_type",
+   "is_system_generated": 1,
    "label": "Preferred Transporter",
    "module": "Freight Management",
    "options": "Preferred Transporter"
   },
   {
    "dt": "Opportunity",
-   "fieldname": "custom_shipment_type",
-   "fieldtype": "Link",
-   "insert_after": "custom_freight_weight_expected",
-   "label": "Shipment Type",
-   "module": "Freight Management",
-   "options": "Shipment Type"
-  },
-  {
-   "dt": "Opportunity",
    "fieldname": "custom_freight_weight_expected",
    "fieldtype": "Float",
    "insert_after": "custom_destination_location",
+   "is_system_generated": 1,
    "label": "Freight Weight (Expected)",
    "module": "Freight Management"
   },
@@ -31,6 +24,7 @@
    "fieldname": "custom_destination_location",
    "fieldtype": "Table",
    "insert_after": "custom_origin_location",
+   "is_system_generated": 1,
    "label": "Destination Location",
    "module": "Freight Management",
    "options": "Freight Location"
@@ -40,6 +34,7 @@
    "fieldname": "custom_origin_location",
    "fieldtype": "Table",
    "insert_after": "custom_transportation_medium",
+   "is_system_generated": 1,
    "label": "Origin Location",
    "module": "Freight Management",
    "options": "Freight Location"
@@ -49,6 +44,7 @@
    "fieldname": "custom_transportation_medium",
    "fieldtype": "Link",
    "insert_after": "custom_type_of_shipment",
+   "is_system_generated": 1,
    "label": "Transportation Medium",
    "module": "Freight Management",
    "options": "Transportation Medium"
@@ -58,6 +54,7 @@
    "fieldname": "custom_type_of_shipment",
    "fieldtype": "Link",
    "insert_after": "custom_freight_specific",
+   "is_system_generated": 1,
    "label": "Type Of Shipment",
    "module": "Freight Management",
    "options": "Types Of Shipment"
@@ -67,7 +64,31 @@
    "fieldname": "custom_freight_specific",
    "fieldtype": "Section Break",
    "insert_after": "dashboard_tab",
+   "is_system_generated": 1,
    "label": "Freight Specific",
+   "module": "Freight Management"
+  },
+  {
+   "dt": "Opportunity",
+   "fieldname": "custom_column_break_ddajv",
+   "fieldtype": "Column Break",
+   "insert_after": "custom_preferred_transporter",
+   "module": "Freight Management"
+  },
+  {
+   "dt": "Opportunity",
+   "fieldname": "custom_shipment_type",
+   "fieldtype": "Link",
+   "insert_after": "custom_column_break_ddajv",
+   "label": "Shipment Type",
+   "module": "Freight Management",
+   "options": "Shipment Type"
+  },
+  {
+   "dt": "Opportunity",
+   "fieldname": "custom_section_break_wrgxd",
+   "fieldtype": "Section Break",
+   "insert_after": "custom_freight_weight_expected",
    "module": "Freight Management"
   }
  ]

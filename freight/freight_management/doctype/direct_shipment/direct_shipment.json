@@ -206,8 +206,9 @@
   },
   {
    "fieldname": "shipment_type",
-   "fieldtype": "Data",
-   "label": "Shipment Type"
+   "fieldtype": "Link",
+   "label": "Shipment Type",
+   "options": "Shipment Type"
   },
   {
    "fieldname": "origin_location",
@@ -258,7 +259,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-28 14:32:26.837281",
+ "modified": "2025-03-03 17:55:15.173369",
  "modified_by": "Administrator",
  "module": "freight management",
  "name": "Direct Shipment",

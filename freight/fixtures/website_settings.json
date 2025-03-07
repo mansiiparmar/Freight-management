@@ -46,100 +46,70 @@
    {
     "label": "Service",
     "open_in_new_tab": 0,
-    "parent": "Website Settings",
     "parent_label": null,
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
     "right": 1,
     "url": null
    },
    {
     "label": "FCL-Freight",
     "open_in_new_tab": 0,
-    "parent": "Website Settings",
     "parent_label": "Service",
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
     "right": 1,
     "url": "fcl-freight"
    },
    {
     "label": "LCL-Freight",
     "open_in_new_tab": 0,
-    "parent": "Website Settings",
     "parent_label": "Service",
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
     "right": 1,
     "url": "lcl-freight"
    },
    {
     "label": "Air Freight",
     "open_in_new_tab": 0,
-    "parent": "Website Settings",
     "parent_label": "Service",
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
     "right": 1,
     "url": "air-freight"
    },
    {
     "label": "Sea Air Freight",
     "open_in_new_tab": 0,
-    "parent": "Website Settings",
     "parent_label": "Service",
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
     "right": 1,
     "url": "sea-air-freight"
    },
    {
     "label": "Project Logistic",
     "open_in_new_tab": 0,
-    "parent": "Website Settings",
     "parent_label": "Service",
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
     "right": 1,
     "url": "projectlogistics"
    },
    {
     "label": "Read Freight",
     "open_in_new_tab": 0,
-    "parent": "Website Settings",
     "parent_label": "Service",
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
     "right": 1,
     "url": "read-freight"
    },
    {
     "label": "Multimodal",
     "open_in_new_tab": 0,
-    "parent": "Website Settings",
     "parent_label": "Service",
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
     "right": 1,
     "url": "multimodal"
    },
    {
     "label": "About Us",
     "open_in_new_tab": 0,
-    "parent": "Website Settings",
     "parent_label": null,
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
     "right": 1,
     "url": null
    },
    {
     "label": "Ship With Us",
     "open_in_new_tab": 0,
-    "parent": "Website Settings",
     "parent_label": null,
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
     "right": 1,
     "url": "contactus"
    }

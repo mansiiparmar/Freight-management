@@ -24,7 +24,8 @@ def create_shipment_order(source,target=None,ignore_permissions= True):
             'custom_origin_location':'origin_location',
             'custom_destination_location':'destination_location',
             'custom_freight_weight_expected':'freight_weight_expected',
-            'custom_preferred_transporter':'preferred_transporter'
+            'custom_preferred_transporter':'preferred_transporter',
+            'custom_shipment_type':'shipment_type'
 			
 		},
 		}

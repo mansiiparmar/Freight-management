@@ -23,7 +23,7 @@ class DirectShipment(Document):
         random_digits = ''.join(random.choices(string.digits, k=length))
         
         # Combine the destination and random digits for the tracking number
-        tracking_number = f"{self.destination}-{random_digits}"
+        tracking_number = f"{self.destination_location}-{random_digits}"
         return tracking_number
 
     # Method to set the name with tracking number

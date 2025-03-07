@@ -48,7 +48,8 @@ doctype_js = {"Sales Invoice" : "customization/sales_invoice/sales_invoice.js",
               "Lead":"customization/lead/lead.js",
               "Quotation":"customization/quotation/quotation.js",
               "Opportunity":"customization/opportunity/opportunity.js",
-              "Sales Order":"customization/sales_order/sales_order.js"}
+              "Sales Order":"customization/sales_order/sales_order.js",
+              }
 
 # app_include_js = [
 #     "customization/sales_order/sales_order.js"
@@ -259,7 +260,8 @@ fixtures = [
  	{"dt":"Web Page"},
 	{"dt":"Web Form"},
 	{"dt":"Website Settings"},
-    {"dt":"Print Format"}
+    {"dt":"Print Format"},
+    {"dt":"File"}
 ]
 
 after_migrate = "freight.migrate.after_migrate"

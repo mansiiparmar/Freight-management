@@ -4,3 +4,5 @@
 
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
+freight.freight_management.doctype.items.pathes.items
+freight.freight_management.doctype.testing_demo.patches.testing_demo

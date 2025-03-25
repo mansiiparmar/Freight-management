@@ -12,6 +12,7 @@
   "operation",
   "volume_cbm",
   "gross_weight_kg",
+  "email",
   "section_break_4pda",
   "save",
   "column_break_ctol",
@@ -27,7 +28,7 @@
    "fieldname": "packages",
    "fieldtype": "Link",
    "label": "Packages",
-   "options": "Freight Packages"
+   "options": "Packages"
   },
   {
    "fieldname": "quantity",
@@ -67,11 +68,16 @@
    "fieldname": "discard",
    "fieldtype": "Button",
    "label": "Discard"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-12 10:07:43.139183",
+ "modified": "2025-03-18 14:59:28.473869",
  "modified_by": "Administrator",
  "module": "freight management",
  "name": "Items",

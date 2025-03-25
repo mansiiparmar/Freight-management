@@ -12,8 +12,8 @@ function fetchDataFromOtherDocType() {
         method: "frappe.client.get_value",
         args: {
             doctype: "Customer", 
-            fieldname: ["customer_name"],
-            filters: { customer_name: "Mr kumel gandhi" } 
+            fieldname: ["customer_name"]
+            // filters: { customer_name: "Mr kumel gandhi" } 
         },
         callback: function(response) {
             if (response.message) {

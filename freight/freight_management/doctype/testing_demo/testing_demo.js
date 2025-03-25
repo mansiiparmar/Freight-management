@@ -1,8 +1,8 @@
 // Copyright (c) 2025, admin and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on("Items", {
-	refresh(frm) {
+// frappe.ui.form.on("Testing Demo", {
+// 	refresh(frm) {
 
-	},
-});
+// 	},
+// });

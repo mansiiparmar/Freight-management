@@ -20,6 +20,7 @@
   "other_pc",
   "freight_weight_expected",
   "notes",
+  "status",
   "consignee_column",
   "consignee",
   "airline",
@@ -255,11 +256,18 @@
    "fieldtype": "Select",
    "label": "Direction",
    "options": "Import\nExport"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "In Proccess\nDone"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-03 17:55:15.173369",
+ "modified": "2025-03-13 11:49:44.808275",
  "modified_by": "Administrator",
  "module": "freight management",
  "name": "Direct Shipment",

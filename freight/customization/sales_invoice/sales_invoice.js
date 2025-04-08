@@ -49,12 +49,12 @@ frappe.ui.form.on("Sales Invoice", {
 
        
 
-frappe.ui.form.on("Sales Invoice", {
-	onchange: function(frm) {
-		alert("on change");
-		frappe.throw("kumel")
+// frappe.ui.form.on("Sales Invoice", {
+// 	onchange: function(frm) {
+// 		alert("on change");
+// 		frappe.throw("kumel")
 
-	}
-})
+// 	}
+// })
 
 

@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-11 09:57:19.088534",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_oxgi",
+  "document_type",
+  "document_id",
+  "status",
+  "select",
+  "country",
+  "test",
+  "test1",
+  "test2",
+  "password"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_oxgi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Link",
+   "label": "Document Type",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "document_id",
+   "fieldtype": "Dynamic Link",
+   "label": "Document Id",
+   "options": "document_type"
+  },
+  {
+   "default": "0",
+   "fieldname": "status",
+   "fieldtype": "Check",
+   "label": "Status"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Select",
+   "label": "Select",
+   "options": "Check\nUnCheck"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "test",
+   "fieldtype": "Select",
+   "label": "test",
+   "options": "\na\nb"
+  },
+  {
+   "default": "0",
+   "fieldname": "test1",
+   "fieldtype": "Check",
+   "label": "test1",
+   "options": "\nCheck\nUnCheck"
+  },
+  {
+   "fieldname": "test2",
+   "fieldtype": "Select",
+   "label": "test2",
+   "options": "\nCheck\nUnCheck"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "password"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-08 11:44:36.218500",
+ "modified_by": "Administrator",
+ "module": "freight management",
+ "name": "test",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -7,25 +7,26 @@
  "doctype": "Report",
  "filters": [
   {
-   "fieldname": "date",
+   "fieldname": "creation",
    "fieldtype": "Date",
-   "label": "date",
-   "mandatory": 0,
+   "label": "creation",
+   "mandatory": 1,
    "wildcard_filter": 0
   }
  ],
  "idx": 0,
  "is_standard": "Yes",
  "letterhead": null,
- "modified": "2025-03-04 14:45:17.676777",
+ "modified": "2025-03-11 10:40:59.408959",
  "modified_by": "Administrator",
  "module": "freight management",
  "name": "test",
  "owner": "Administrator",
  "prepared_report": 0,
+ "query": "SELECT \n    name,\n    customer_name,\n    creation,\n    modified\nFROM \n    `tabCustomer`\n",
  "ref_doctype": "Lead",
  "report_name": "test",
- "report_type": "Script Report",
+ "report_type": "Query Report",
  "roles": [
   {
    "role": "System Manager"

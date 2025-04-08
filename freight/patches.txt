@@ -7,4 +7,5 @@
 # Patches added in this section will be executed after doctypes are migrated
 
 
+
 freight.freight_management.doctype.test.patches.k5

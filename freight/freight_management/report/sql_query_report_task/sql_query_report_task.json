@@ -1,0 +1,31 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2025-03-12 17:27:22.401156",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-03-13 10:48:55.053370",
+ "modified_by": "Administrator",
+ "module": "freight management",
+ "name": "sql_query_report_task",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT count(name) as Total_Shipments,`direction`,`user`,`type_of_shipment`\nFROM `tabDirect Shipment` group by direction;\n",
+ "ref_doctype": "Direct Shipment",
+ "report_name": "sql_query_report_task",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
+ "timeout": 0
+}

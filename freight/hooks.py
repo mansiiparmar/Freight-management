@@ -56,7 +56,7 @@ doctype_js = {"Sales Invoice" : "customization/sales_invoice/sales_invoice.js",
 # ]
 # scheduler_events = {
 #     "daily": [
-#         "freight.hooks.schedule_sales_invoice_processing"
+#         "types_of_shipment.my_scheduled_task"
 #     ]
 # }
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
@@ -144,18 +144,18 @@ doctype_js = {"Sales Invoice" : "customization/sales_invoice/sales_invoice.js",
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Lead": "freight.customization.lead.lead.CustomLead"
+}
 
 # Document Events
 # ---------------
 # Hook on document methods and events
 
 # doc_events = {
-# 	"Sales Order":{
-# 		"on_update": "/freight.freight_management.Customization.Sales Order.sales order.get_sales_invoice_data",
-		
+# 	"Quotation":{
+# 		"before_submit": "freight.customization.quotation.quotation.before_submit",
+#         "on_submit": "freight.customization.quotation.quotation.on_submit"
 # 	}
 # }
 

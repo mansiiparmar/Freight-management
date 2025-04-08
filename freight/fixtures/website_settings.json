@@ -1,6 +1,6 @@
 [
  {
-  "address": null,
+  "address": "",
   "app_logo": null,
   "app_name": "Frappe",
   "auto_account_deletion": 72,
@@ -9,7 +9,7 @@
   "brand_html": null,
   "call_to_action": null,
   "call_to_action_url": null,
-  "copyright": null,
+  "copyright": "",
   "disable_signup": 1,
   "docstatus": 0,
   "doctype": "Website Settings",
@@ -18,18 +18,18 @@
   "favicon": null,
   "footer_items": [],
   "footer_logo": null,
-  "footer_powered": null,
+  "footer_powered": "",
   "footer_template": null,
   "footer_template_values": null,
   "google_analytics_anonymize_ip": 1,
   "google_analytics_id": null,
   "head_html": null,
-  "hide_footer_signup": 0,
+  "hide_footer_signup": 1,
   "hide_login": 0,
   "home_page": "freight",
   "indexing_authorization_code": null,
   "indexing_refresh_token": null,
-  "modified": "2025-02-28 16:37:59.382143",
+  "modified": "2025-04-08 13:58:25.847548",
   "name": "Website Settings",
   "navbar_search": 0,
   "navbar_template": null,
@@ -131,7 +131,7 @@
     "parentfield": "top_bar_items",
     "parenttype": "Website Settings",
     "right": 1,
-    "url": null
+    "url": "aboutus"
    },
    {
     "label": "Ship With Us",
@@ -142,6 +142,16 @@
     "parenttype": "Website Settings",
     "right": 1,
     "url": "contactus"
+   },
+   {
+    "label": "Contact Us",
+    "open_in_new_tab": 0,
+    "parent": "Website Settings",
+    "parent_label": null,
+    "parentfield": "top_bar_items",
+    "parenttype": "Website Settings",
+    "right": 1,
+    "url": "shipwithus"
    }
   ],
   "website_theme": "Standard",

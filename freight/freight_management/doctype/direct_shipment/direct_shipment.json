@@ -20,6 +20,7 @@
   "other_pc",
   "freight_weight_expected",
   "notes",
+  "status",
   "consignee_column",
   "consignee",
   "airline",
@@ -255,6 +256,13 @@
    "fieldtype": "Select",
    "label": "Direction",
    "options": "Import\nExport"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "In Proccess\nDone"
   }
  ],
  "grid_page_length": 50,

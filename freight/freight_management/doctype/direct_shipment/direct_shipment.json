@@ -206,8 +206,9 @@
   },
   {
    "fieldname": "shipment_type",
-   "fieldtype": "Data",
-   "label": "Shipment Type"
+   "fieldtype": "Link",
+   "label": "Shipment Type",
+   "options": "Shipment Type"
   },
   {
    "fieldname": "origin_location",
@@ -256,9 +257,10 @@
    "options": "Import\nExport"
   }
  ],
+ "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-28 14:32:26.837281",
+ "modified": "2025-03-11 09:51:29.914746",
  "modified_by": "Administrator",
  "module": "freight management",
  "name": "Direct Shipment",
@@ -317,6 +319,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

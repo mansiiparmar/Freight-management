@@ -36,14 +36,29 @@ app_license = "mit"
 # website_theme_scss = "freight/public/scss/website"
 
 # include js, css files in header of web form
-# webform_include_js = {"doctype": "public/js/doctype.js"}
+webform_include_js = {"Inquiry": "web_form/inquiry/inquiry.js"}
+
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-doctype_js = {"Sales Invoice" : "customization/sales_invoice/sales_invoice.js"}
+doctype_js = {"Sales Invoice" : "customization/sales_invoice/sales_invoice.js",
+              "Lead":"customization/lead/lead.js",
+              "Quotation":"customization/quotation/quotation.js",
+              "Opportunity":"customization/opportunity/opportunity.js",
+              "Sales Order":"customization/sales_order/sales_order.js",
+              }
+
+# app_include_js = [
+#     "customization/sales_order/sales_order.js"
+# ]
+# scheduler_events = {
+#     "daily": [
+#         "freight.hooks.schedule_sales_invoice_processing"
+#     ]
+# }
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -245,7 +260,8 @@ fixtures = [
  	{"dt":"Web Page"},
 	{"dt":"Web Form"},
 	{"dt":"Website Settings"},
-    {"dt":"Print Format"}
+    {"dt":"Print Format"},
+    {"dt":"File"}
 ]
 
 after_migrate = "freight.migrate.after_migrate"

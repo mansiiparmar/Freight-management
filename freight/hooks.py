@@ -44,11 +44,11 @@ webform_include_js = {"Inquiry": "web_form/inquiry/inquiry.js"}
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-doctype_js = {"Sales Invoice" : "customization/sales_invoice/sales_invoice.js",
+doctype_js = {"Sales Invoice" : "freight/freight_management/customization/sales_invoice/sales_invoice.js",
               "Lead":"customization/lead/lead.js",
-              "Quotation":"customization/quotation/quotation.js",
-              "Opportunity":"customization/opportunity/opportunity.js",
-              "Sales Order":"customization/sales_order/sales_order.js",
+              "Quotation":"freight/freight_management/customization/quotation/quotation.js",
+              "Opportunity":"freight/freight_management/customization/opportunity/opportunity.js",
+              "Sales Order":"freight/freight_management/customization/sales_order/sales_order.js",
               }
 
 # app_include_js = [
@@ -145,7 +145,7 @@ doctype_js = {"Sales Invoice" : "customization/sales_invoice/sales_invoice.js",
 # Override standard doctype classes
 
 override_doctype_class = {
-	"Lead": "freight.customization.lead.lead.CustomLead"
+	"Lead": "freight.freight_management.customization.lead.lead.CustomLead"
 }
 
 # Document Events
@@ -153,10 +153,12 @@ override_doctype_class = {
 # Hook on document methods and events
 
 # doc_events = {
-# 	"Quotation":{
-# 		"before_submit": "freight.customization.quotation.quotation.before_submit",
-#         "on_submit": "freight.customization.quotation.quotation.on_submit"
-# 	}
+#       "Quotation": {
+#         "validate": "freight.freight_management.customization.quotation.quotation.validate"
+#     },
+#     "Quotation Item": {
+#         "validate": "freight.freight_management.customization.quotation.quotation_item.validate"
+#     }
 # }
 
 # Scheduled Tasks

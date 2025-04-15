@@ -52,7 +52,7 @@
    "in_preview": 1,
    "in_standard_filter": 1,
    "label": "Operation",
-   "options": "\nDry\nreefer",
+   "options": "\nDry\nwet/referigeration",
    "permlevel": 1
   },
   {
@@ -91,7 +91,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-02-17 19:17:46.717326",
+ "modified": "2025-04-10 10:43:24.182224",
  "modified_by": "Administrator",
  "module": "freight management",
  "name": "Order",

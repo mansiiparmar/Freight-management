@@ -983,7 +983,7 @@
   "meta_description": null,
   "meta_image": "",
   "meta_title": null,
-  "modified": "2025-04-08 14:05:22.713434",
+  "modified": "2025-04-14 14:47:28.461458",
   "module": "freight management",
   "name": "freight",
   "page_blocks": [
@@ -1006,7 +1006,7 @@
     "web_template_values": "{\"slider_name\":\"Freight Slider\",\"show_indicators\":1,\"show_controls\":1,\"slide_1_image\":\"/private/files/freight-1.jpg\",\"slide_1_title\":\"Simplifying Logistics\",\"slide_1_subtitle\":\"Integrated Logistics Solutions across 6 Continents\",\"slide_1_primary_action_label\":\"Tracking Number\",\"slide_1_primary_action\":\"tracking\",\"slide_1_content_align\":\"Centre\",\"slide_1_theme\":\"Dark\",\"slide_2_image\":\"/files/slide-2-poster.jpg.webp\",\"slide_2_title\":\"Ocean Freight\",\"slide_2_subtitle\":\"Connect Your trade to the world with the pioneers of LCL Consolidation\",\"slide_2_primary_action_label\":\"Get a Quate now\",\"slide_2_primary_action\":\"freight\",\"slide_2_content_align\":\"Left\",\"slide_2_theme\":\"Light\",\"slide_3_title\":\"Air Freight\",\"slide_3_subtitle\":\"Ship with prime carriers thanks to our strategic partenership\",\"slide_3_primary_action_label\":\"Learn More\",\"slide_3_theme\":\"Light\",\"slide_4_title\":\"Frescon\",\"slide_4_subtitle\":\"The digital logistics software powered by Freight Systems.\\nQuote, book, and track as well as manage shipments entirely\\nonline in a comprehensive self-service portal.\\n\\n\",\"slide_4_primary_action_label\":\"Lean More\"}"
    }
   ],
-  "published": 1,
+  "published": 0,
   "route": "freight",
   "show_sidebar": 0,
   "show_title": 0,

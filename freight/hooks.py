@@ -146,6 +146,7 @@ doctype_js = {"Sales Invoice" : "customization/sales_invoice/sales_invoice.js",
 
 override_doctype_class = {
 	"Lead": "freight.customization.lead.lead.CustomLead"
+    
 }
 
 # Document Events
@@ -195,9 +196,10 @@ override_doctype_class = {
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
-# override_doctype_dashboards = {
-# 	"Task": "freight.task.get_dashboard_data"
-# }
+override_doctype_dashboards = {
+	# "Task": "freight.task.get_dashboard_data"
+    "Project": "freight.customization.project.project.get_data",
+}
 
 # exempt linked doctypes from being automatically cancelled
 #
